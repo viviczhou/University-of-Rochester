@@ -1,2 +1,2 @@
 # University-of-Rochester
-## Class Projects
+Class Projects
