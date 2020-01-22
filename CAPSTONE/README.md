@@ -1,2 +1,2 @@
 # CAPSTONE PROJECTS
-Including codes and reports.
+Including lecture slides, codes, and reports.
