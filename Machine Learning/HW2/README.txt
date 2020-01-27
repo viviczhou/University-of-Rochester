@@ -1,11 +1,9 @@
-HOMEWORK 2: Perceptron Algorithm
-Chunlei Zhou (NetID: czhou19) @ 2020/01/23
-==========================================================================================
+# HOMEWORK 2: Perceptron Algorithm
+##### Chunlei Zhou (NetID: czhou19) @ 2020/01/23
 
 
 
-1. Introduction of the Homework: 
-==========================================================================================
+## 1. Introduction of the Homework: 
 
 Predict whether income exceeds $50K/yr based on census data. Also known as "Census Income" dataset.
 
@@ -20,8 +18,7 @@ http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html
 
 
 
-2. Files Includes With HW2_czhou19_submit:
-==========================================================================================
+## 2. Files Includes With HW2_czhou19_submit:
 
 Zhou_perceptron.py: The python file filled all the TODOs.
 
@@ -37,11 +34,10 @@ README.txt: This file.
 
 
 
-3. Experiments & Discussions:
-==========================================================================================
+## 3. Experiments & Discussions:
 
-3.1 How performance changes as a function of number of iterations:
-------------------------------------------------------------------------------------------
+### 3.1 How performance changes as a function of number of iterations:
+
 With the constant learning rate (lr = 2), the model converged when number of iterations is approximately 2. Before convergence, the prediction accuracy of the model increases when the number of iterations increases. After convergence, the prediction accuracy float around 80%. I found the accuracy does not change with the number of iterations after convergence.
 
 The trends for all three datasets (training, development, and testing) are same.
@@ -49,8 +45,8 @@ The trends for all three datasets (training, development, and testing) are same.
 The results are visualized. Please see train_dev_acc_iter_uploaded.png and test_acc_iter_uploaded.png for more details.
 
 
-3.2 How performance changes as a function of learning rates:
-------------------------------------------------------------------------------------------
+### 3.2 How performance changes as a function of learning rates:
+
 With the constant number of iterations (iterations = 25), the accuracy of the model floats around 80% and does not change with the learning rate.
 
 The trends for all three datasets (training, development, and testing) are same.
@@ -60,16 +56,15 @@ The results are visualized. Please see train_dev_acc_lr_uploaded.png and test_ac
 (Notes: the learning rate is range from 0.0 to 0.02 with step size equals to 0.02 for experiments on all three datasets. The x axis is labeled from 0 to 100 in the plot. The learning rate is calculated as lr = 0.02*xtick)
 
 
-3.3 How to best use dev data during training:
-------------------------------------------------------------------------------------------
+### 3.3 How to best use dev data during training:
+
 When run command without '--nodev', the dev data will be used to avoid overfitting. In theory, the model accuracy should increase with the number of iterations. When accuracy of the dev data decreases with the number of iterations, the training process should be early stoped. Considered that there will be fluctuations in model accuracy when the number of iterations changes, so using accuracy alone may not be a signal that sufficient enough. Thus, I use the loss and accuracy of dev data together as the signal of overfitting.
 
 When loss decreases and accuracy also decreases with the number of iterations, the training process should be early stopped.
 
 
 
-4. Additional Information:
-==========================================================================================
+## 4. Additional Information:
 
 When run command line: './Zhou_perceptron.py', the model will return some outputs using a suitable learning rate I found and will stop before the model is overfitted.
 
