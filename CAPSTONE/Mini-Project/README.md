@@ -1,6 +1,6 @@
 ===================================================================================================
-Human Activity Recognition Using Smartphones Dataset
-Version 1.0
+# Human Activity Recognition Using Smartphones Dataset
+#### Version 1.0
 ===================================================================================================
 Jorge L. Reyes-Ortiz(1,2), Davide Anguita(1), Alessandro Ghio(1), Luca Oneto(1) and Xavier Parra(2)
 1 - Smartlab - Non-Linear Complex Systems Laboratory
@@ -14,7 +14,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. 
 
-For each record it is provided:
+## For each record it is provided:
 ======================================
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
@@ -23,7 +23,7 @@ For each record it is provided:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-The dataset includes the following files:
+## The dataset includes the following files:
 =========================================
 
 - 'README.txt'
@@ -52,7 +52,7 @@ The following files are available for the train and test data. Their description
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
-Notes: 
+### Notes: 
 ======
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
@@ -62,7 +62,7 @@ Notes:
 
 For more information about this dataset please contact: activityrecognition '@' smartlab.ws
 
-License:
+### License:
 ========
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
 
@@ -70,7 +70,7 @@ Use of this dataset in publications must be acknowledged by referencing the foll
 
 This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
 
-Other Related Publications:
+### Other Related Publications:
 ===========================
 [2] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra, Jorge L. Reyes-Ortiz.  Energy Efficient Smartphone-Based Activity Recognition using Fixed-Point Arithmetic. Journal of Universal Computer Science. Special Issue in Ambient Assisted Living: Home Care.   Volume 19, Issue 9. May 2013
 
