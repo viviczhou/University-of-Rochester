@@ -1,7 +1,0 @@
-linux commands
-$ chmod u+x Zhou_perceptron.py
-$ ./Zhou_perceptron.py
-$ for i in $(seq 1 110); do ./Zhou_perceptron.py --nodev --iterations $i --lr 2; done > output_110.csv
-$ for i in $(seq 1 70); do ./Zhou_perceptron.py --nodev --iterations 25 --lr $i; done > output_25.csv
-$ chmod u+x plot_acc.py
-$ ./plot_acc.py
